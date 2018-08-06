@@ -1,0 +1,25 @@
+<image class='banner' src='/images/register_doctor_basic.png'></image>
+<view class='license'>
+  <text class='title'>医师执业证书</text>
+  <text class='text_common'>上传带有执业地点详情页的图片</text>
+  <view class='three_columns'>
+    <view class='itemSize'><image bindtap='uploadPhoto' src='/images/icon_photo.png' /></view>
+    <view class='itemSize'><image bindtap='uploadPhoto' src='/images/icon_photo.png' /></view>
+    <view class='itemSize'><text class='example_img'>示例图</text></view>
+  </view>
+</view>
+
+<view class='license'>
+  <text class='title'>职称证书</text>
+  <text class='text_common'>上传职称证书或者工牌</text>
+  <view class='three_columns'>
+    <view class='itemSize'><image bindtap='uploadPhoto' src='/images/icon_photo.png' /></view>
+    <view class='itemSize'><image bindtap='uploadPhoto' src='/images/icon_photo.png' /></view>
+    <view class='itemSize'><text class='example_img'>示例图</text></view>
+  </view>
+</view>
+
+<view class='footer'>
+  <button formType="submit" class='btn-submit'>上一步</button>
+  <button formType="submit" class='btn-submit'>提交审核</button> 
+</view>

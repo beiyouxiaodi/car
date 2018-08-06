@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/login/login",
+    "pages/register_doctor_basic/register_doctor_basic",   
+    "pages/register_doctor_license/register_doctor_license",
+    "pages/register_doctor_checksuccess/register_doctor_checksuccess",
+    "pages/register_doctor_checkfail/register_doctor_checkfail",    
+    "pages/doctor_inform/doctor_inform",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "疫苗无忧医生版",
+    "navigationBarTextStyle":"black"
+  }
+}

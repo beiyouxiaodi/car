@@ -1,0 +1,52 @@
+.title{
+  display: block;
+  margin-top:0;
+  color: #333;
+  font-size: 40rpx;
+  line-height: 1.5;
+  text-indent: 30rpx;
+}
+.text_common{
+  display: block;
+  color: #999;
+  font-size: 35rpx;
+  line-height: 1.5;
+  text-indent: 30rpx;
+}
+.three_columns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.three_columns .itemSize{
+  position: relative;
+  flex: 1; 
+  height:0;
+  width: 25%;
+  padding-top: 25%;
+  background-color:white;
+  margin: 30rpx;
+}  
+.itemSize image{
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  width: 100rpx;
+  height: 80rpx;
+}
+.example_img{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 35%;
+}
+.footer{
+   overflow: hidden;
+}
+.btn-submit{
+  float: left;
+  width: 44%;
+  margin-left: 30rpx;
+  margin-top: 60rpx;
+}

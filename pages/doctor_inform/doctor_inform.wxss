@@ -1,0 +1,20 @@
+.three_columns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10rpx;
+}
+.three_columns .itemSize{
+  position: relative;
+  flex: 1; 
+  height: 120rpx;
+  width: 25%;
+  background-color:#F2F2F2;
+} 
+.not_reply{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 35%;
+}

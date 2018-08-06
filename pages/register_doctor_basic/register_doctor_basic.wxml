@@ -1,0 +1,31 @@
+<image class='banner' src='/images/register_doctor_basic.png'></image>
+
+<form class='form_doctor'>
+  <view class="section">
+    姓名<input name="input" placeholder="请务必填写真实姓名" auto-focus/>
+  </view>
+  <view class="divLine"></view>
+    <view class="section">
+    科室<input name="input" class='input_option' placeholder="例：儿童保健科" />
+    <view class='arrow'></view>
+    </view>
+  <view class="divLine"></view>
+  <view class="section">
+    职称<input name="input" class='input_option' placeholder="请选择职称" />
+    <view class='arrow'></view>
+  </view>
+  <view class="divLine"></view>
+  <view class="section">
+    单位<input name="input" class='input_option' placeholder="请选择单位" />
+    <view class='arrow'></view>
+  </view>
+  <view class="divLine"></view> 
+  <view class="section">
+    擅长以及个人介绍
+    <textarea maxlength='-1' ></textarea>
+  </view> 
+  <view class="divLine"></view> 
+  <view class="btn-area">
+    <button formType="submit" class='btn_submit2'>继续</button>
+  </view>
+</form>

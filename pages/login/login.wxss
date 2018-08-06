@@ -1,0 +1,10 @@
+.btn-area{
+  margin-top: 100rpx;
+}
+.btn-area text{
+  display: block;
+  float: right;
+  margin-right: 30rpx;
+  margin-top: 30rpx;
+  color: blue;
+}

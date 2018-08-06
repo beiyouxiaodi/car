@@ -1,0 +1,26 @@
+<view class='body'>
+<text class='title'>欢迎使用疫苗无忧医生版</text>
+<form class='form_doctor'>
+  <view class="section">
+    <input name="input" placeholder="请输入您的手机号" />
+    <button class='verificationCode' disabled='{{disabled}}' data-id="2" bindtap="getVerificationCode">{{time}}</button>
+  </view>
+  <view class="divLine"></view>
+    <view class="section">
+    <input name="input" placeholder="请输入验证码" />
+  </view>
+  <view class="divLine"></view>
+    <view class="section">
+    <input name="input" placeholder="请输入密码" />
+  </view>
+    <view class="divLine"></view>
+    <view class="section">
+    <input name="input" placeholder="再次输入密码" />
+  </view>
+  <view class="divLine"></view> 
+  <view class="btn-area">
+    <button formType="submit" class='btn_submit1'>注  册</button>
+    <button formType="submit" class='btn_submit2'>已有账号，直接登录</button>
+  </view>
+</form>
+</view>

@@ -1,0 +1,5 @@
+  <view class='three_columns'>
+    <view class='itemSize'><text class='not_reply'>待回复（2)</text></view>
+    <view class='itemSize'><text class='not_reply'>123</text></view>
+    <view class='itemSize'><text class='not_reply'>123</text></view>
+  </view>

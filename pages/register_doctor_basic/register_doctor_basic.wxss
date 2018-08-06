@@ -1,0 +1,29 @@
+.section{
+  position: relative;
+  text-indent: 20rpx;
+  display: block;
+}
+input{
+  float: right;
+  text-align: right;
+  margin-right: 30rpx;
+}
+.input_option{
+  margin-right: 60rpx;
+}
+.arrow{
+  position: absolute;
+  top: 45%;
+  margin-left: 84%;
+  width: 20rpx;
+  height: 20rpx;
+  border-top: 2rpx solid rgb(150, 139, 139);
+  border-right: 2rpx solid rgb(150, 139, 139);
+  transform: rotate(45deg);
+}
+textarea {
+  height: 200rpx;
+}
+.btn_submit2{
+  margin-top: 50rpx;
+}

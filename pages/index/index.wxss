@@ -1,0 +1,13 @@
+page{
+  background-color: #E4E4E4
+}
+
+.verificationCode{
+  float: right;
+  margin-top: -60rpx;
+  border-radius: 140rpx;
+  line-height: 2.2;
+}
+.btn-area{
+  margin-top: 80rpx;
+}

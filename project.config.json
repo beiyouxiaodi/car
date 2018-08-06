@@ -1,0 +1,76 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.1",
+	"appid": "wx3f3babc39683c40c",
+	"projectname": "yimiao",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 5,
+			"list": [
+				{
+					"id": -1,
+					"name": "doctor_basic",
+					"pathName": "pages/register_doctor_basic/register_doctor_basic",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "doctor_license",
+					"pathName": "pages/register_doctor_license/register_doctor_license",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "doctor_success",
+					"pathName": "pages/register_doctor_checksuccess/register_doctor_checksuccess",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "doctor_fail",
+					"pathName": "pages/register_doctor_checkfail/register_doctor_checkfail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "login_direct",
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "inform",
+					"pathName": "pages/doctor_inform/doctor_inform"
+				}
+			]
+		}
+	}
+}

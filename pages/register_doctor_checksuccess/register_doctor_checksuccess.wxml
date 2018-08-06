@@ -1,0 +1,13 @@
+<image class='banner' src='/images/register_doctor_basic.png'></image>
+<view class='content'>
+  <view class='img'>
+    <image src='/images/icon_success.png' />
+  </view>
+  <text class='prompt_center'>提交成功</text>
+  <view class="divLine"></view>
+  <view class='prompt_content'>
+    <text class='prompt_center'>您的注册信息已经提交，\n将在一个工作日内完成审核，\n请耐心等待！</text>
+    <text class='prompt_center'>审核结果将以短信方式告知您，\n请注意查收审核结果短信。</text>
+  </view>
+</view>
+

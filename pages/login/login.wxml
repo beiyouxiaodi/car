@@ -1,0 +1,17 @@
+<view class='body'>
+<text class='title'>欢迎使用疫苗无忧医生版</text>
+<form class='form_doctor'>
+  <view class="section">
+    <input name="input" placeholder="请输入您的手机号" />
+  </view>
+  <view class="divLine"></view>
+    <view class="section">
+    <input name="input" placeholder="请输入密码" />
+  </view>
+    <view class="divLine"></view>
+  <view class="btn-area">
+    <button formType="submit" class='btn_submit2'>登录</button>
+    <text>没有账号？去注册一个</text>
+  </view>
+</form>
+</view>
